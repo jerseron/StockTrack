@@ -1,0 +1,6 @@
+# Copy this file to "stocktrack.properties" (same folder as pom.xml) to use MariaDB.
+# Without a stocktrack.properties file, the app uses the SQLite file stocktrack.db.
+
+db.url=jdbc:mariadb://localhost:3306/stocktrack
+db.user=stocktrack
+db.password=stocktrack123
